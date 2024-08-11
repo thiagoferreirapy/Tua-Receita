@@ -18,8 +18,12 @@ export default function Home() {
   return (
     <Main>
       <ConatinerCategories>
+        <br />
+        <br />
+        <div>
         <Title>Encontre e compartilhe as receitas da sua vida</Title>
         <FormGetRecipe/>
+        </div>
         <Categories currentCategory={currentCategory} onCategorySelect={handleCategorySelect}/>
       </ConatinerCategories>
       <ShowRecipes selectCategory={currentCategory}/>

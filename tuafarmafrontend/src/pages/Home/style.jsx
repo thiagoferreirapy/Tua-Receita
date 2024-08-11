@@ -13,7 +13,7 @@ export const ConatinerCategories = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background-image: url(${bg});
   background-repeat: no-repeat;
   background-size: cover;

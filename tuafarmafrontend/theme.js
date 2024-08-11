@@ -4,7 +4,7 @@ const theme = {
         secundary: "#3D3D3D",
         redPrimary: "#CE2E37",
         orangeSecundary: "#462204",
-        whiteSecondary: "#E6E6E6",
+        whiteSecondary: "#F1F1F1",
         grayPrimary: "#757575",
         graySecondary: "#979696",
         backgroundEmphasis: "#F8F9FA",

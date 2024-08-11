@@ -2,7 +2,7 @@ import styled, { css } from "styled-components";
 
 export const ContainerForm = styled.form`
   all: unset;
-  width: 650px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

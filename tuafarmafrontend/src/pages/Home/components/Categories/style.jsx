@@ -3,12 +3,7 @@ import styled, { css } from "styled-components";
 export const Containercategories = styled.div`
   all: unset;
   width: 100%;
-  height: 40px;
-  /* background-color: red; */
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  transform: translate(-50%);
+  flex-wrap: wrap;
   display: flex;
   align-items: center;
   justify-content: center;
