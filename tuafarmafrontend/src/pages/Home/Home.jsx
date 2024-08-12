@@ -15,6 +15,7 @@ export default function Home() {
     setCurrentCategory(category);
     console.log("Categoria selecionada:", category);
   };
+  
   return (
     <Main>
       <ConatinerCategories>

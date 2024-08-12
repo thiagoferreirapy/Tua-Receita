@@ -7,4 +7,5 @@ export const ContainerForm = styled.form`
   align-items: center;
   justify-content: center;
   gap: 24px;
+  margin-top: 15px;
 `;

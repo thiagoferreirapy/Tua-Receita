@@ -11,6 +11,7 @@ import Header from "./layouts/Header/Header.jsx";
 // import About from "./pages/About/About.jsx";
 // import Contact from "./pages/Contact/Contact.jsx";
 import { useImmobileData } from "./hooks/useImmobileData.js";
+import Footer from "./layouts/Footer/Footer.jsx";
 
 function App() {
   // const { data, error, isLoading } = useImmobileData();
@@ -31,7 +32,7 @@ function App() {
             <Route path='/favorite' element={<Home />} />
             <Route path='/property' element={<Home />} /> */}
           </Routes>
-          {/* <Footer /> */}
+          <Footer />
         </ScrollProvider>
       </Router>
     </ThemeProvider>

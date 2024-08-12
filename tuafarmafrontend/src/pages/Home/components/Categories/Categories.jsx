@@ -6,6 +6,7 @@ export default function Categories({ currentCategory, onCategorySelect }) {
   const handleClick = (category) => {
     onCategorySelect(category);
   };
+  
   return (
     <Containercategories>
       <ButtonCategories

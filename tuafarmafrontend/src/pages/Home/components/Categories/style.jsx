@@ -3,6 +3,7 @@ import styled, { css } from "styled-components";
 export const Containercategories = styled.div`
   all: unset;
   width: 100%;
+  margin-bottom: 20px;
   flex-wrap: wrap;
   display: flex;
   align-items: center;
